@@ -1,0 +1,60 @@
+{
+  "name": "@helstern/react-context-composer",
+  "version": "0.0.0",
+  "description": "compose a DAG of components using React Context in a declarative fashion",
+  "keywords": [
+    "react",
+    "react context"
+  ],
+  "author": "radu helstern <radu.helstern@gmail.com>",
+  "homepage": "https://github.com/helstern/react-context-composer",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "types": "src/main/javascript/index.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "src/main/test"
+  },
+  "files": [
+    "lib",
+    "src"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/helstern/react-context-composer.git"
+  },
+  "scripts": {
+    "watch": "tsc --watch",
+    "build": "tsc --diagnostics",
+    "clean": "rm -rf lib",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint --fix -p tsconfig.json",
+    "test:types": "tsc --noEmit",
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/helstern/react-context-composer/issues"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0",
+    "react-dom": "^16.8.0",
+    "@types/react": "^16.8.0",
+    "@types/react-dom": "^16.8.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^24.0.0",
+    "@types/react": "16.8.1",
+    "@types/react-dom": "16.8.0",
+    "jest": "^24.0.0",
+    "prettier": "^1.16.4",
+    "react": "16.8.0",
+    "react-dom": "16.8.0",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.1",
+    "tslint-config-prettier": "^1.18.0",
+    "typescript": "^3.3.1"
+  }
+}
