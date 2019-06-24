@@ -1,6 +1,6 @@
 {
   "name": "@helstern/react-context-composer",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "compose a DAG of components using React Context in a declarative fashion",
   "keywords": [
     "react",
